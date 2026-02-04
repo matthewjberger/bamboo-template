@@ -1,0 +1,8 @@
+title = "My Blog"
+base_url = "http://localhost:3000"
+description = "A blog built with Bamboo"
+author = "Your Name"
+language = "en"
+
+[extra]
+github = "https://github.com/yourusername"
