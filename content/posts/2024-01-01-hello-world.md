@@ -1,23 +1,19 @@
 +++
 title = "Hello World"
 date = 2024-01-01
-description = "My first blog post"
+description = "A sample blog post"
 +++
 
-This is your first blog post. Edit this file or create new ones in the `content/posts/` directory.
+This is a sample blog post. Create new posts in the `content/posts/` directory.
 
-## Getting Started
+Posts use TOML frontmatter for metadata:
 
-Posts are written in Markdown with TOML frontmatter. The filename determines the URL slug.
-
-## Features
-
-- **Markdown** - Write content in Markdown
-- **Syntax Highlighting** - Code blocks are automatically highlighted
-- **Dark Mode** - Built-in dark mode support
-
-```rust
-fn main() {
-    println!("Hello, Bamboo!");
-}
+```toml
++++
+title = "Post Title"
+date = 2024-01-01
+description = "A short description"
++++
 ```
+
+The filename determines the URL slug.
