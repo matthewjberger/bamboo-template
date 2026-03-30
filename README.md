@@ -24,14 +24,26 @@ A starter template for [Bamboo](https://github.com/matthewjberger/bamboo), a fas
 ├── content/
 │   ├── _index.md        # Homepage content
 │   ├── about.md         # About page
-│   └── posts/           # Blog posts
+│   └── posts/           # Blog posts (YYYY-MM-DD-slug.md)
 ├── static/              # Static assets (images, etc.)
 └── dist/                # Generated site (git ignored)
 ```
 
+## Features
+
+- **Posts** with date-based filenames and tag support
+- **Pages** for standalone content (about, contact, etc.)
+- **Collections** for grouping related content (docs, projects, etc.)
+- **Custom permalinks** via frontmatter (`permalink = "/custom-url/"`)
+- **Shortcodes** for reusable content components
+- **Syntax highlighting** with configurable themes
+- **RSS and Atom feeds** generated automatically
+- **Search index** for client-side search
+- **Sass/SCSS** compilation built in
+
 ## Customization
 
-Edit `bamboo.toml` to configure your site title, description, and social links.
+Edit `bamboo.toml` to configure your site title, description, and more.
 
 ## Deployment
 

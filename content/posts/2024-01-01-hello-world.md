@@ -1,19 +1,24 @@
 +++
 title = "Hello World"
-date = 2024-01-01
-description = "A sample blog post"
+tags = ["welcome"]
 +++
 
 This is a sample blog post. Create new posts in the `content/posts/` directory.
 
-Posts use TOML frontmatter for metadata:
+Posts use TOML frontmatter for metadata. The date is parsed from the filename (`YYYY-MM-DD-slug.md`):
 
 ```toml
 +++
 title = "Post Title"
-date = 2024-01-01
-description = "A short description"
+tags = ["example"]
 +++
 ```
 
-The filename determines the URL slug.
+You can also set a custom URL with the `permalink` field:
+
+```toml
++++
+title = "Post Title"
+permalink = "/blog/custom-url/"
++++
+```
